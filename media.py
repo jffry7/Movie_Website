@@ -4,8 +4,7 @@ import webbrowser
 
 
 class Movie():
-    """Test doc"""
-    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
+    """Creates a library of commands for reused functions when making movie list."""
 
     def __init__(self, movie_title, movie_storyline,
                  poster_image, trailer_youtube):
