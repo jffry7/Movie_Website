@@ -33,5 +33,6 @@ short_circuit = media.Movie("Short Cicuit",
                             "https://images-na.ssl-images-amazon.com/images/M/MV5BZjhlNmI0NDktYTMxNS00MWYwLWEzYjktOTNhN2JkNWFiZTkwXkEyXkFqcGdeQXVyMDEwMjgxNg@@._V1_.jpg",
                             "https://www.youtube.com/watch?v=RBtRVjAMbVo")
 
+# all description are from IMDB
 movies = [the_matrix, pirates_caribbean, star_wars, star_trek, back_to_future, short_circuit]
 fresh_tomatoes.open_movies_page(movies)
